@@ -25,5 +25,6 @@ int main(){
   cout << "Quantas horas voce ja faltou?";
   cin >> f;
   
-  cout << "Voce ainda pode faltar "<< calculodefaltas(c,f) << " horas nessa disciplina.(Frequencia: " << frequencia(h,f) << "%.)";
+  cout << "Voce ainda pode faltar "<< calculodefaltas(c,f) << " horas nessa disciplina.(Frequencia: " << frequencia(h,f) << "%.)\n";
+  system("pause");
 }

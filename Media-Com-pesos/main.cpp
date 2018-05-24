@@ -26,5 +26,6 @@ int main() {
   mediat=somat/qt;
   
   mediaf=mediap*vp+mediat*vt;
-  cout<< mediaf << " = sua media final!";
+  cout<< mediaf << " = sua media final!\n";
+  system("pause");
 }
