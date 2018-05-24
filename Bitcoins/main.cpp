@@ -56,5 +56,6 @@ double bitcoin(){
   return lucro;
 }
 int main(){
-  cout << bitcoin() << " = seu lucro total!";
+  cout << bitcoin() << " = seu lucro total! \n";
+  system("pause");
 }
