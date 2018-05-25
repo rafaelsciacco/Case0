@@ -14,14 +14,14 @@ double bitcoin(){
     cout << "Valor BITCOIN do site C, no instante "<<i<<":";
     cin >> c;
     if(i!=n){
-      if(a<b&a<c){
+      if(a<=b&a<=c){
         if(i==1){
           comprar=a;
         }
         cout<< "Comprar do site A, no instante " << i<<endl;
       }
           else{
-            if(b<a&b<c){
+            if(b<=a&b<=c){
               if(i==1){
                 comprar=b;
               }
@@ -56,6 +56,6 @@ double bitcoin(){
   return lucro;
 }
 int main(){
-  cout << bitcoin() << " = seu lucro total! \n";
+  cout << bitcoin() << " (montante final - inicial) \n";
   system("pause");
 }
